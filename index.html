@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="responsive.jpg" type="image/x-icon">
+    <title>JOKER</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="logo-container">
+          <img src="logo.png" alt="logo" class="logo-image" />
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="#" class="nav-link">GALLERY</a></li>
+          <li><a href="#" class="nav-link">CAST</a></li>
+          <li><a href="contato.html" class="nav-link">CONTACT US</a></li>
+        </ul>
+      </nav>
+
+      <div class="main-content">
+        <div class="text-section">
+          <div class="text-content">
+            <p class="subtitle">JOAQUIN PHOENIX And Lady Gaga</p>
+            <h1 class="headline">
+              PUT ON A <br />
+              HAPPY FACE
+            </h1>
+            <p class="coming-soon">The highly anticipated sequel to the critically acclaimed 2019 film "Joker" is finally here.</p>
+          </div>
+          <div class="button-group">
+            <a href="#" class="button button-primary">3 de outubro de 2024</a>
+            <a href="https://www.youtube.com/watch?v=_OKAwz2MsJs" class="button button-secondary">WATCH TRAILER</a>
+          </div>
+        </div>
+        <div class="image-section"></div>
+      </div>
+
+
+    </header>
+    <footer>
+        <p class="Rodape">criador Joao Lucas</p>
+    </footer>
+    <script>
+      // Script para alternar o menu hamburger
+      document.getElementById('menu-toggle').addEventListener('click', function() {
+        var navList = document.getElementById('nav-list');
+        if (navList.style.display === 'flex') {
+          navList.style.display = 'none';
+        } else {
+          navList.style.display = 'flex';
+        }
+      });
+    </script>
+  </body>
+</html>
